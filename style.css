@@ -8,8 +8,9 @@ justify-content:right;
 height: 30px;
 margin-left: 15px;
 margin-top: 15px;}
+.card .navbar {border-radius: 3%;}
 .card{
-border-radius: 8%;
+border-radius: 3%;
 width:300px;
 height:450px;
 text-align: left;
@@ -18,15 +19,15 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .card:hover{box-shadow:rgba(170, 170, 168, 0.797) 0px 8px 24px;
 }
-.card-img-top{
-margin:0px;
+.card-body img{
+align-items: stretch;
+margin: 0px;
 padding: 0px;
-max-width:300px;
-max-height:300px;
+max-width:298px;
+max-height:298px;
 }
-.card h5{align-items: left;}
+.navbar-brand h5{align-self: left;}
 .navbar-toggler{border:0ch;}
-.navbar-toggler::before{}
 /* query */
 @media only screen and (max-width : 320px) {
 .card-img-top{display:none}
