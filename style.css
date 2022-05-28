@@ -3,13 +3,12 @@ main{margin-top: 80px;
 #mynavbar{
 justify-content:right;
 }
+/* CARDS */
 .image-card-logo{width: 30px;
 height: 30px;
 margin-left: 15px;
 margin-top: 15px;}
-/* CARDS */
 .card{
-    display:flex;
 border-radius: 8%;
 width:300px;
 height:450px;
@@ -25,6 +24,9 @@ padding: 0px;
 max-width:300px;
 max-height:300px;
 }
+.card h5{align-items: left;}
+.navbar-toggler{border:0ch;}
+.navbar-toggler::before{}
 /* query */
 @media only screen and (max-width : 320px) {
 .card-img-top{display:none}
