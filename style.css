@@ -1,10 +1,11 @@
 main{margin-top: 80px;
 margin-left:60px;
 }
-.navbar-collapse{flex-grow: 0;}
-.camara{width: 100px;
-height: 70px;
-
+.navbar-collapse {flex-grow: 0;
+}
+.camara{
+width: 50px;
+height: 50px;
 }
 /* CARDS */
 .image-card-logo{width: 30px;
@@ -39,12 +40,14 @@ height:298px;
 height: 30px;}
 .favorito{float:right;}
 /*footer page*/
-#footer{justify-content: space-around;}
+#footer{margin-left:0px;
+    justify-content: space-around;}
 /* query */
-@media only screen and (max-width : 320px) {.card-img-top{ max-width: min-content;
-max-height: min-content;}
-.navbar-collapse{flex-grow: 1;}}
-@media only screen and (max-width : 768px) {.navbar-collapse{flex-grow: 1;}
+@media only screen and (max-width : 320px) {
+main {margin-left:5px;margin-top:10px;
+
 }
-@media only screen and (max-width : 244px) {.navbar-collapse{flex-grow: 1;}
+@media only screen and (max-width : 573px) {}
+}
+@media only screen and (max-width : 244px) {
 }
