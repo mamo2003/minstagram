@@ -8,7 +8,8 @@ justify-content:right;
 height: 30px;
 margin-left: 15px;
 margin-top: 15px;}
-.card .navbar {border-radius: 3%;}
+.card .navbar{border-radius: 3%;
+}
 .card{
 border-radius: 3%;
 width:300px;
@@ -20,13 +21,12 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 .card:hover{box-shadow:rgba(170, 170, 168, 0.797) 0px 8px 24px;
 }
 .card-body img{
-align-items: stretch;
 margin: 0px;
 padding: 0px;
 max-width:298px;
 max-height:298px;
 }
-.navbar-brand h5{align-self: left;}
+.dropdown-menu{z-index: 1;}
 .navbar-toggler{border:0ch;}
 /* query */
 @media only screen and (max-width : 320px) {
