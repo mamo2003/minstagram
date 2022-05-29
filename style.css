@@ -22,13 +22,17 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .card:hover{box-shadow:rgba(170, 170, 168, 0.797) 0px 8px 24px;
 }
-.card-body img{
-margin: 0px;
+.rounded-pill{width: 40px;
+height: 40px;}
+.card-img-top{
+margin-left: 0px;
 padding: 0px;
-max-width:298px;
-max-height:298px;
+width:270px;
+height: 270px;
 }
 .navbar-toggler{border:0ch;}
+.heart{width: 30px;
+height: 30px;}
 /* query */
 @media only screen and (max-width : 320px) {
 .card-img-top{display:none}
