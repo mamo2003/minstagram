@@ -14,8 +14,8 @@ margin-top: 15px;}
 .card{
 border-radius: 3%;
 width:300px;
-height:450px;
-text-align: left;
+height:435px;
+text-align:left;
 margin-top:30px;
 margin-left:15px;
 margin-bottom:15px;
@@ -25,13 +25,11 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .rounded-3{width: 40px;
 height: 40px;}
-.card-body{padding: 0em;
-padding-bottom: 0em;}
+.card-body{padding: 0px;
+padding-bottom: 0px;}
 .card-img-top{
 width:298px;
 height:298px;
-max-width: max-content;
-max-height: max-content;
 }
 .navbar-toggler{border:0ch;}
 .heart{width: 30px;
@@ -40,7 +38,7 @@ height: 30px;}
 /* query */
 @media only screen and (max-width : 320px) {.card-img-top{ max-width: min-content;
 max-height: min-content;}
-}
+.navbar-collapse{flex-grow: 1;}}
 @media only screen and (max-width : 768px) {.navbar-collapse{flex-grow: 1;}
 }
 @media only screen and (max-width : 244px) {.navbar-collapse{flex-grow: 1;}
