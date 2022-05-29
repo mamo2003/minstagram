@@ -3,6 +3,8 @@ main{margin-top: 80px;
 #mynavbar{
 justify-content:right;
 }
+.camara{width: 80px;
+height: 60px;}
 /* CARDS */
 .image-card-logo{width: 30px;
 height: 30px;
@@ -26,7 +28,6 @@ padding: 0px;
 max-width:298px;
 max-height:298px;
 }
-.dropdown-menu{z-index: 1;}
 .navbar-toggler{border:0ch;}
 /* query */
 @media only screen and (max-width : 320px) {
