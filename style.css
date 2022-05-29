@@ -1,10 +1,9 @@
 main{margin-top: 80px;
 }
-#mynavbar{
-justify-content:right;
+.navbar-collapse{flex-grow: 0;}
+.camara{width: 100px;
+height: 70px;
 }
-.camara{width: 80px;
-height: 60px;}
 /* CARDS */
 .image-card-logo{width: 30px;
 height: 30px;
@@ -17,27 +16,32 @@ border-radius: 3%;
 width:300px;
 height:450px;
 text-align: left;
-margin: 10px 20px;
+margin-top:30px;
+margin-left:15px;
+margin-bottom:15px;
 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .card:hover{box-shadow:rgba(170, 170, 168, 0.797) 0px 8px 24px;
 }
-.rounded-pill{width: 40px;
+.rounded-3{width: 40px;
 height: 40px;}
+.card-body{padding: 0em;
+padding-bottom: 0em;}
 .card-img-top{
-margin-left: 0px;
-padding: 0px;
-width:270px;
-height: 270px;
+width:298px;
+height:298px;
+max-width: max-content;
+max-height: max-content;
 }
 .navbar-toggler{border:0ch;}
 .heart{width: 30px;
 height: 30px;}
+#footer{justify-content: space-between;}
 /* query */
-@media only screen and (max-width : 320px) {
-.card-img-top{display:none}
+@media only screen and (max-width : 320px) {.card-img-top{ max-width: min-content;
+max-height: min-content;}
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) {.navbar-collapse{flex-grow: 1;}
 }
-@media only screen and (max-width : 244px) {
+@media only screen and (max-width : 244px) {.navbar-collapse{flex-grow: 1;}
 }
